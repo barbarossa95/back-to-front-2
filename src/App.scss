@@ -1,0 +1,20 @@
+.App {
+  color: #000;
+
+  ul {
+    list-style: none;
+
+    li {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      width: 400px;
+      margin: 10px;
+      padding: 10px;
+      &.highlited {
+        color: #fff;
+        background-color: #ea5745;
+      }
+    }
+  }
+}
